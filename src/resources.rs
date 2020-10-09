@@ -138,6 +138,8 @@ pub use self::price::*;
 #[cfg(feature = "billing")]
 pub use self::subscription::*;
 #[cfg(feature = "billing")]
+pub use self::subscription::PlanInterval as SubscriptionPlanInterval;
+#[cfg(feature = "billing")]
 pub use self::subscription_ext::*;
 #[cfg(feature = "billing")]
 pub use self::subscription_item::*;
